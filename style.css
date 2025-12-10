@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    height: 100vh; /*vh = height of screen*/
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, #959595, #fff);
+    text-align: center;
+
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto; /* atas&bawah kiri&kanan */
+    padding: 50px 20px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* to crop & fit the img w/o stretching the img*/
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18pt;
+    color: #323232;
+    margin-bottom: 30px;
+}
+
+.link .button {
+    display: block;
+    width: 75%;
+    padding: 10px;
+    margin: 7px auto;
+    background-color: #d8d8d8;
+    color: #959595;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 10%);
+
+}
+
+.link .button:hover {
+    background-color: #8d8d8d;
+    color: #fff;
+    transform: scale(10px);
+    transition: 2s transform;
+}
+
+.sosmed {
+    margin-top: 20px;
+    a {text-decoration: none;
+    img {
+        width: 24px;
+        height: 24px;
+        object-fit: contain; /* to fit the img w/o changing the aspect ratio */
+        margin: 0 3%;
+    }}
+}
